@@ -6,11 +6,26 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Calculadora...</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="entorno">
+            <header class="head">¡¡¡Calculadora!!!</header>
+            <div class="sector1">
+                <input type="text" name="num1" />
+                <input type="text" name="num2" />
+                <input type="text" name="result" disabled=""/>
+            </div>
+            <div class="sector2">
+                <input type="button" value="+" onclick="sumar();">
+                <input type="button" value="-" onclick="restar();">
+                <input type="button" value="x" onclick="multiplicar();">
+                <input type="button" value="/" onclick="dividir();">
+            </div>
+        </div>
     </body>
 </html>
