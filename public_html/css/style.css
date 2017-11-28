@@ -41,23 +41,21 @@ header{
 .sector1 input {
     margin: 2px;
     text-align: center;
+    height: 30px;
 }
 
 input[name="num1"]{
     float: left;
     width: 35px;
-    height: 30px;
 }
 
 input[name="num2"]{
     float: right;
     width: 35px;
-    height: 30px;
 }
 
 input[name="result"]{
     width: 83px;
-    height: 30px;
 }
 .sector2 {
     position: absolute;
