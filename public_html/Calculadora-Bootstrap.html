@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora-Bootstrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/styleBoot.css">
+        <script type="text/javascript" src="./js/mainBoot.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2 ">                    
+                    <div class="col">
+                        <div class="row" style="border-style: solid">
+                            <label id="lbl1"></label>
+                            <label id="lbl2">0</label>
+                        </div>
+                        <div class="row">
+                            <input type="button" value="7" onclick="insert(this);"> 
+                            <input type="button" value="8" onclick="insert(this);">
+                            <input type="button" value="9" onclick="insert(this);">
+                            <input type="button" value="/" onclick="dividir(this);">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="4" onclick="insert(this);">
+                            <input type="button" value="5" onclick="insert(this);">
+                            <input type="button" value="6" onclick="insert(this);">
+                            <input type="button" value="x" onclick="multiplicar(this);">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="1" onclick="insert(this);">
+                            <input type="button" value="2" onclick="insert(this);">
+                            <input type="button" value="3" onclick="insert(this);">
+                            <input type="button" value="-" onclick="restar(this);">
+                        </div> 
+                        <div class="row"> 
+                            <input type="button" value="CE" onclick="limpiar()">
+                            <input type="button" value="0" onclick="insert(this);">
+                            <input type="button" value="=" onclick="result();">
+                            <input type="button" value="+" onclick="sumar(this);">
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
