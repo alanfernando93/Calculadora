@@ -1,10 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 var aux = "", label2, r, array = [], num1, num2, signo = "", sw = 0;
 
 function init() {
