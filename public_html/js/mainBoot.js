@@ -22,7 +22,6 @@ function insert(data) {
         sw = 0;
     }
     label2.innerHTML += data.value;
-    console.log(array);
 }
 
 function limpiar() {
@@ -111,7 +110,6 @@ function result() {
     r.innerHTML = array[0];
     aux = array[0];
     array.splice(0);
-    console.log(array);
 }
 
 function simplificar(indice) {
